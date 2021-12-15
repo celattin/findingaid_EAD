@@ -73,7 +73,35 @@
 			<langmaterial> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Language and Scripts of the Material Element' -->
 				<language langcode="eng">English</language>
 			</langmaterial>
+			<abstract>
+				The collection contains a death certificate, witness statements, investigative proceedings, and other documents from
+				the investigative report on the death of 17-year-old James C. Mowry. The accident occurred at a Civilian Conservation Corps camp
+				in Oakland, Maryland in 1941.
+			</abstract>
 		</did>
+		<bioghist>
+			<head>Historical Note</head>
+			<p> 
+				The Civilian Conservation Corps was a depression-era public works program that provided jobs working on various natural resource conservation projects.
+			</p>
+		</bioghist>
+		<controlaccess>
+			<corpname relator="subject" identifier="http://id.loc.gov/authorities/names/n79099497">
+				Civilian Conservation Corps
+			</corpname>
+			<subject source="lcsh">
+				<part>Death - Proof and certification</part>
+			</subject>
+			<subject source="lcsh">
+				<part>Great Depression, 1929</part>
+			</subject>
+			<subject source="lcsh">
+				<part>Maryland, Western</part>
+			</subject>
+			<subject source="lcsh">
+				<part>Public service employment</part>
+			</subject>
+		</controlaccess>
 		<accessrestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
 			<p>Collection is open and available for use.</p>
 		</accessrestrict>
@@ -89,5 +117,8 @@
 			   copies of many of the documents.
 			</p>
 		</scopecontent>
+		<originalsloc>
+			<p>National Archives and Records Administration</p>
+		</originalsloc>
 	</archdesc>
 </ead>
