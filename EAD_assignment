@@ -2,7 +2,7 @@
 <?xml-model href="schema/ead3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <ead xmlns="http://ead3.archivists.org/schema/" audience="external"> <!-- EAD3 required element -->
 	<control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924"> <!-- EAD3 required element -->
-		<recordid instanceurl="http://library.marist.edu/archives/LTP/LTP.xml">1.1</recordid> <!-- EAD3 required element -->
+		<recordid instanceurl="http://digital.lib.umd.edu/jamescmowry.xml">1.1</recordid> <!-- EAD3 required element -->
 		<filedesc> <!-- EAD3 required element -->
 			<titlestmt> <!-- EAD3 required element -->
 				<titleproper>The James C. Mowry Collection</titleproper> <!-- Required element within titlestmt -->
@@ -11,16 +11,16 @@
 				<publisher>University of Maryland Libraries</publisher>
 				<date>December 2021</date>
 				<address>
-					<addressline>3399 North Road</addressline>
-					<addressline>College Park, MD 20782</addressline>
+					<addressline>7649 Library Lane</addressline>
+					<addressline>College Park, MD 20742</addressline>
 				</address>
 				<p><ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref></p>
 			</publicationstmt>
 		</filedesc>
-		<maintenancestatus value="revised"/> <!-- EAD3 required element -->
+		<maintenancestatus value="new"/> <!-- EAD3 required element -->
 		<maintenanceagency countrycode="US"> <!-- EAD3 required element -->
-			<agencycode>NPkMC</agencycode>
-			<agencyname>Marist College Archives &amp; Special Collections</agencyname>
+			<agencycode>MdU</agencycode>
+			<agencyname>University of Maryland</agencyname>
 		</maintenanceagency>
 		<languagedeclaration>
 			<language langcode="eng">English</language>
@@ -29,7 +29,7 @@
 		<maintenancehistory> <!-- EAD3 required element -->
 			<maintenanceevent> <!-- EAD3 required element -->
 				<eventtype value="created"/> <!-- EAD3 required element -->
-				<eventdatetime standarddatetime="2010-04">April 2010</eventdatetime> <!-- EAD3 required element -->
+				<eventdatetime standarddatetime="2021-12">December 2021</eventdatetime> <!-- EAD3 required element -->
 				<agenttype value="human"/> <!-- EAD3 required element -->
 				<agent>Claire Lattin</agent> <!-- EAD3 required element -->
 			</maintenanceevent>
@@ -43,11 +43,11 @@
 					<part>Libraries &amp; Special Collections</part>
 				</corpname>
 				<address>
-					<addressline>3399 North Road</addressline>
-					<addressline>College Park, MD</addressline>
+					<addressline>7649 Library Lane</addressline>
+					<addressline>College Park, MD 20742</addressline>
 				</address>
 			</repository>
-			<origination source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79139713"> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
+			<origination source="lcnaf" identifier="http://id.loc.gov/authorities/names/n79099497"> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
 				<corpname>
 					Civilian Conservation Corps
 				</corpname>
@@ -67,7 +67,7 @@
 				</physdescstructured>
 				<physdescstructured physdescstructuredtype="spaceoccupied" coverage="whole">
 					<quantity>93.2</quantity>
-					<unittype>megabites</unittype>
+					<unittype>megabytes</unittype>
 				</physdescstructured>
 			</physdescset>
 			<langmaterial> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Language and Scripts of the Material Element' -->
