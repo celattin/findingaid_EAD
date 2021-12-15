@@ -120,5 +120,8 @@
 		<originalsloc>
 			<p>National Archives and Records Administration</p>
 		</originalsloc>
+		<acqinfo>
+			<p><persname><part>Dr. Ken Heger</part></persname></p>
+		</acqinfo>
 	</archdesc>
 </ead>
