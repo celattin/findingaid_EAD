@@ -38,7 +38,7 @@
 	<archdesc level="collection"> <!-- EAD3 required element -->
 		<did> <!-- EAD3 required element -->
 			<repository> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Name and Location of Repository Element' -->
-				<corpname source="NAF" identifier="http://id.loc.gov/authorities/names/n91102518">
+				<corpname source="NAF" identifier="https://id.loc.gov/authorities/names/no91025439.html">
 					<part>University of Maryland</part>
 					<part>Libraries &amp; Special Collections</part>
 				</corpname>
